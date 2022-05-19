@@ -1,0 +1,22 @@
+{
+  "name": "basic-javascript-tutorial",
+  "version": "1.0.0",
+  "description": "resource for online course basic javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caption01/basic-javascript-tutorial.git"
+  },
+  "author": "Nutchapon Hanouypornlert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caption01/basic-javascript-tutorial/issues"
+  },
+  "homepage": "https://github.com/caption01/basic-javascript-tutorial#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
