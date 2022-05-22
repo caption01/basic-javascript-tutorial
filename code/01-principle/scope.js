@@ -1,8 +1,8 @@
 function one() {
-  const name = "one";
+  const name = 'one';
 
   function two() {
-    const name = "two";
+    const name = 'two';
     console.log(name);
   }
 
@@ -10,3 +10,5 @@ function one() {
 
   console.log(name);
 }
+
+one();
