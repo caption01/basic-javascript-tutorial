@@ -7,7 +7,6 @@ const multiple = (x) => {
 const main = () => {
   const multiPleByFive = multiple(5);
   const result = multiPleByFive(10);
-
   return result;
 };
 

@@ -1,6 +1,5 @@
 function main() {
   const age = 25;
-
   const result = isAdult(age);
   return result;
 }
