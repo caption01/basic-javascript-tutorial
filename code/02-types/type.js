@@ -1,16 +1,22 @@
-let a = 10;
-let b = 'foo';
-const c = {
-  name: 'bom',
-  age: 25,
-};
-
-function main(a, b, c) {
+function process(a, b, c) {
   a = 20;
   b = 'bar';
-  c.age = 50;
+  c.age = 30;
+
+  console.log('in process', { a, b, c });
 }
 
-main(a, b, c);
+function main() {
+  const a = 10;
+  const b = 'foo';
+  const c = {
+    name: 'bom',
+    age: 25,
+  };
 
-console.log({ a, b, c });
+  process(a, b, c);
+
+  console.log('in main', { a, b, c });
+}
+
+main();
