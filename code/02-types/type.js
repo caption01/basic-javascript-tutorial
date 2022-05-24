@@ -7,8 +7,8 @@ function process(a, b, c) {
 }
 
 function main() {
-  const a = 10;
-  const b = 'foo';
+  const a = 10; //primitive
+  const b = 'foo'; //primitive
   const c = {
     name: 'bom',
     age: 25,
