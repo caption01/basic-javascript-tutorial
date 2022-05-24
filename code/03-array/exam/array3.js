@@ -9,20 +9,7 @@
  * case 3 -> ((x) => 10 < x < 20, [20, 5, 15, 17, 10]) => 3
  */
 
-function findingIndex(condition = () => {}, lists = []) {
-  const numberPassCondition = lists.filter((number) => {
-    if (condition(number)) {
-      return number;
-    }
-  });
-
-  console.log({ numberPassCondition });
-
-  const maxNumber = Math.max(...numberPassCondition);
-  const indexOfMaxNumber = lists.indexOf(maxNumber);
-
-  return indexOfMaxNumber;
-}
+function findingIndex(condition, lists) {}
 
 module.exports = {
   findingIndex,

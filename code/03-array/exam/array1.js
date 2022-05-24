@@ -9,27 +9,7 @@
  * case 3 -> [] -> false
  */
 
-const IPHONE = 'iphone';
-const IPAD = 'ipad';
-const MACBOOK = 'macbook';
-
-function checkForAppleGadget(people = []) {
-  if (people.length === 0) return false;
-
-  const result = people.some((p) => {
-    const gadget = p?.gadget || [];
-
-    const haveIphone = gadget.includes(IPHONE);
-    const haveIpad = gadget.includes(IPAD);
-    const haveMacbook = gadget.includes(MACBOOK);
-
-    if (haveIphone && haveIpad && haveMacbook) return true;
-
-    return false;
-  });
-
-  return result;
-}
+function checkForAppleGadget(people) {}
 
 module.exports = {
   checkForAppleGadget,

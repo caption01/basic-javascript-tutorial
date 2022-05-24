@@ -9,36 +9,7 @@
  * case 3 -> [] -> {x: [], y: []}
  */
 
-function seperateArrayXY(lists = []) {
-  let position = {
-    x: [],
-    y: [],
-  };
-
-  if (lists.length === 0) return position;
-
-  const arrayX = lists
-    .map((item) => {
-      const [pos, value] = item;
-      if (pos === 'x' && Boolean(value)) return value;
-    })
-    .filter(Boolean);
-
-  const arrayY = lists.reduce((sum, item) => {
-    const [pos, value] = item;
-
-    if (pos === 'y' && Boolean(value)) {
-      return [...sum, value];
-    }
-
-    return sum;
-  }, []);
-
-  position.x = arrayX;
-  position.y = arrayY;
-
-  return position;
-}
+function seperateArrayXY(lists) {}
 
 module.exports = {
   seperateArrayXY,
