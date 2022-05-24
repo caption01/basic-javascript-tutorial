@@ -1,6 +1,6 @@
 const { seperateArrayXY } = require('../exam/array2');
 
-describe('Testing for array2 exam', () => {
+describe.skip('Testing for array2 exam', () => {
   test('case 1', () => {
     const lists = [
       ['x', 10],
