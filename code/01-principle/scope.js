@@ -1,14 +1,14 @@
-function one() {
+function upper() {
   const name = 'one';
 
-  function two() {
+  function inner() {
     const name = 'two';
-    console.log(name);
+    console.log('inner', name);
   }
 
-  two();
+  inner();
 
-  console.log(name);
+  console.log('upper ', name);
 }
 
-one();
+upper();
