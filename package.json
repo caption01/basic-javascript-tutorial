@@ -4,7 +4,8 @@
   "description": "resource for online course basic javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test-array": "jest 03-array",
+    "test-object": "jest 04-object"
   },
   "repository": {
     "type": "git",

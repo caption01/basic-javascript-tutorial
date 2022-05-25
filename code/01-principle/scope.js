@@ -1,12 +1,27 @@
-function one() {
-  const name = "one";
+function upper() {
+  let name = 'john';
 
-  function two() {
-    const name = "two";
-    console.log(name);
+  function inner() {
+    name = 'debby';
+    console.log('innner ->', name);
   }
 
-  two();
+  inner();
 
-  console.log(name);
+  console.log('upper ->', name);
 }
+
+upper();
+
+// function main() {
+//   const fruit = 'apple';
+
+//   if (true) {
+//     const fruit = 'banana';
+//     console.log('in if -->', fruit);
+//   }
+
+//   console.log('aftter if -->', fruit);
+// }
+
+// main();
