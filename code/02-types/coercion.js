@@ -8,8 +8,7 @@ const sum = value1 + value2; // '105'
 const value3 = [100];
 const value4 = 10;
 
-const divide = value3 / value4; // 3
+const divide = value3 / value4; // 10
 
 // 3. array object
 const value5 = [] + null + [2]; // 'null2'
-
